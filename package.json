@@ -1,0 +1,33 @@
+{
+  "name": "sweb-example",
+  "version": "0.0.1",
+  "description": "Small Web UI Framework: App Example",
+  "license": "MIT",
+  "author": "Pedro Henrique <phsilva.net@gmail.com>",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc -b && vite build",
+    "preview": "vite preview",
+    "type-check": "tsc --noEmit",
+    "lint-check": "oxlint",
+    "format-check": "oxfmt --check",
+    "knip-check": "knip"
+  },
+  "dependencies": {
+    "sweb": "file:../sweb"
+  },
+  "devDependencies": {
+    "@types/node": "^25.5.0",
+    "knip": "^5.87.0",
+    "oxfmt": "^0.41.0",
+    "oxlint": "^1.56.0",
+    "sweb-vite": "file:../sweb-vite",
+    "typescript": "~5.9.3",
+    "vite": "^8.0.0"
+  },
+  "engines": {
+    "node": ">=24"
+  },
+  "packageManager": "pnpm@10.30.3"
+}
