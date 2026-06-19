@@ -15,7 +15,7 @@
     "knip-check": "knip"
   },
   "devDependencies": {
-    "@types/node": "^25.5.0",
+    "@types/node": "^26.0.0",
     "knip": "^5.87.0",
     "oxfmt": "^0.41.0",
     "oxlint": "^1.56.0",
